@@ -27,6 +27,7 @@
     "rollup-plugin-copy": "^3.4.0"
   },
   "dependencies": {
-    "three": "^0.149.0"
+    "animejs": "^3.2.1",
+    "d3": "^7.8.2"
   }
 }
