@@ -1,12 +1,9 @@
-// const anime = require('animejs');
 import anime from 'animejs/lib/anime.es.js';
 import * as d3 from "d3";
 
 const column_name = [];
 const data = {};
 const columnsEl = document.querySelector(".columns");
-
-
 
 // https://d3-graph-gallery.com/graph/barplot_basic.html
 const displayViz = (data_input, columnSelect) => {
@@ -101,10 +98,7 @@ d3.csv("/data/Sample.csv", (d) => {
     autoplay: false
   })
   .add({
-    translateX: 100
+    translateY: 100
   })
   columnAnimation.play();
 })
-
-
-

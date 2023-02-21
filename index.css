@@ -9,6 +9,10 @@ body {
 .main-title {
     text-align: center;
     font-size: 50px;
+    background-color: rgb(34, 141, 236);
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .data-viz {
@@ -17,9 +21,36 @@ body {
 }
 
 .columns {
-  width: 40%;
+  width: 30%;
+  height: 70vh;
+  background-color: rgb(163, 163, 163);
+  margin: 0 5%;
 }
 
 .canva {
-  width: 60%;
+  width: 55%;
+}
+
+.single-column {
+  display: flex;
+  width: 30%;
+  height: 50px;
+  font-size: 25px;
+  background-color: rgb(34, 141, 236);
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.subtitle {
+  font-size: 30px;
+}
+
+.subpart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
