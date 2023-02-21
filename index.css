@@ -10,3 +10,16 @@ body {
     text-align: center;
     font-size: 50px;
 }
+
+.data-viz {
+  display: flex;
+  flex-direction: row;
+}
+
+.columns {
+  width: 40%;
+}
+
+.canva {
+  width: 60%;
+}
