@@ -5287,13 +5287,9 @@ new Transform(1, 0, 0);
 
 Transform.prototype;
 
-// const anime = require('animejs');
-
 const column_name = [];
 const data = {};
 const columnsEl = document.querySelector(".columns");
-
-
 
 // https://d3-graph-gallery.com/graph/barplot_basic.html
 const displayViz = (data_input, columnSelect) => {
@@ -5388,7 +5384,7 @@ csv("/data/Sample.csv", (d) => {
     autoplay: false
   })
   .add({
-    translateX: 100
+    translateY: 100
   });
   columnAnimation.play();
 });
