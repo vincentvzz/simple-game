@@ -5352,7 +5352,7 @@ const displayViz = (data_input, columnSelect) => {
       .attr("fill", "#69b3a2");
 };
 
-csv("/data/Sample.csv", (d) => {
+csv("https://raw.githubusercontent.com/vincentvzz/my_data/main/Sample.csv", (d) => {
   if (column_name.length === 0) {
     for (const [key, value] of Object.entries(d)) {
       column_name.push(key);
